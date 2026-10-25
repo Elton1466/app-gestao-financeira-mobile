@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "nexo",
+    "slug": "nexo-controle-financeiro",
+    "version": "1.0.0",
+    "sdkVersion": "58.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/nexo-icon-full.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/nexo-logo-full.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nexo.controlefinanceiro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/nexo-icon-full.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.nexo.controlefinanceiro"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-asset",
+      "expo-font",
+      "expo-sharing",
+      "expo-status-bar"
+    ]
+  }
+}

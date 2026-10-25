@@ -1,0 +1,40 @@
+# Dependências e pacotes Node.js
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Expo e Metro Bundler
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos nativos temporários e chaves
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+ios/
+android/
+
+# Protótipo Web de Referência e compactados
+_prototipo_web_ref/
+*.zip
+
+# Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+CONTEXT.md
+DESIGN.md
